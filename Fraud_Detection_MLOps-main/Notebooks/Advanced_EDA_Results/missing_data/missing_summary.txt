@@ -1,0 +1,3 @@
+           Missing Count  Missing %
+isWeekend            560   1.427807
+Category              95   0.242217

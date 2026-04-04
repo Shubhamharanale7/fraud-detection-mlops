@@ -1,0 +1,5 @@
+paymentMethod
+creditcard     0.014641
+paypal         0.013866
+storecredit    0.010972
+Name: label, dtype: float64

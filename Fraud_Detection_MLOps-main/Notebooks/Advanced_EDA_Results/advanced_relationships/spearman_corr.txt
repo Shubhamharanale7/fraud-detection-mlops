@@ -1,0 +1,15 @@
+                      accountAgeDays  numItems  localTime  \
+accountAgeDays              1.000000 -0.073749   0.025407   
+numItems                   -0.073749  1.000000  -0.039997   
+localTime                   0.025407 -0.039997   1.000000   
+paymentMethodAgeDays        0.213525  0.039163  -0.073066   
+isWeekend                   0.006952  0.002926  -0.001202   
+label                      -0.206436  0.081334  -0.042260   
+
+                      paymentMethodAgeDays  isWeekend     label  
+accountAgeDays                    0.213525   0.006952 -0.206436  
+numItems                          0.039163   0.002926  0.081334  
+localTime                        -0.073066  -0.001202 -0.042260  
+paymentMethodAgeDays              1.000000   0.005535 -0.084315  
+isWeekend                         0.005535   1.000000       NaN  
+label                            -0.084315        NaN  1.000000  

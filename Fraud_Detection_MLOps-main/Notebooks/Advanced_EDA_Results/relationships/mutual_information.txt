@@ -1,0 +1,6 @@
+accountAgeDays          0.078249
+paymentMethodAgeDays    0.013221
+isWeekend               0.010576
+numItems                0.003801
+localTime               0.001835
+dtype: float64

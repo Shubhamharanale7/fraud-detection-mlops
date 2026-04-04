@@ -1,0 +1,6 @@
+accountAgeDays: Skew=0.36, Kurtosis=-1.55, Shapiro p=0.0000
+numItems: Skew=13.34, Kurtosis=291.53, Shapiro p=0.0000
+localTime: Skew=-2.95, Kurtosis=10.45, Shapiro p=0.0000
+paymentMethodAgeDays: Skew=3.24, Kurtosis=11.60, Shapiro p=0.0000
+isWeekend: Skew=0.00, Kurtosis=-2.00, Shapiro p=0.0000
+label: Skew=8.19, Kurtosis=65.05, Shapiro p=0.0000

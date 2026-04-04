@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.pptx
+Data/
+K8s/

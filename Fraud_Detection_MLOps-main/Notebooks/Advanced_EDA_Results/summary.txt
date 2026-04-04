@@ -1,0 +1,11 @@
+EDA Completed.
+Check folders for:
+- missing_data
+- cardinality
+- numerical_analysis
+- categorical_analysis
+- relationships
+- outliers
+- distribution_shape
+- target_analysis
+- advanced_relationships

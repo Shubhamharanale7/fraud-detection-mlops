@@ -1,0 +1,30 @@
+artifact_path: file:///C:/Users/Asus/Downloads/Fraud_MLOps_Project/Src/mlruns/388286248182340564/models/m-c85560a39ba04361847898339e8f4363/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.4
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-c85560a39ba04361847898339e8f4363
+model_size_bytes: 4903
+model_uuid: m-c85560a39ba04361847898339e8f4363
+prompts: null
+run_id: db5e133d3040465698fec03625db9683
+signature:
+  inputs: '[{"type": "long", "name": "accountAgeDays", "required": true}, {"type":
+    "long", "name": "numItems", "required": true}, {"type": "double", "name": "localTime",
+    "required": true}, {"type": "string", "name": "paymentMethod", "required": true},
+    {"type": "double", "name": "paymentMethodAgeDays", "required": true}, {"type":
+    "string", "name": "Category", "required": false}, {"type": "double", "name": "isWeekend",
+    "required": false}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-01 21:29:12.688428'

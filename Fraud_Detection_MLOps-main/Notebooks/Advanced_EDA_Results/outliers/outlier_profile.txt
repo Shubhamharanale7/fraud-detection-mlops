@@ -1,0 +1,7 @@
+accountAgeDays: 0 outliers (0.00%)
+numItems: 1823 outliers (4.65%)
+localTime: 3249 outliers (8.28%)
+paymentMethodAgeDays: 6350 outliers (16.19%)
+isWeekend: 0 outliers (0.00%)
+label: 560 outliers (1.43%)
+Multivariate Outliers (IsolationForest): 1961

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mlflow
+pandas
+pydantic
+seaborn
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+prometheus-fastapi-instrumentator
+streamlit

@@ -1,0 +1,4 @@
+Cardinality per categorical feature:
+{'paymentMethod': 3, 'Category': 3}
+
+High cardinality features (>50 unique): []

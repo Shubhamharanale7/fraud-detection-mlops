@@ -1,0 +1,150 @@
+
+===== advanced_relationships\kendall_corr.txt =====
+
+                      accountAgeDays  numItems  localTime  \
+accountAgeDays              1.000000 -0.061020   0.017995   
+numItems                   -0.061020  1.000000  -0.033346   
+localTime                   0.017995 -0.033346   1.000000   
+paymentMethodAgeDays        0.166463  0.033443  -0.052494   
+isWeekend                   0.005788  0.002912  -0.001007   
+label                      -0.171809  0.080925  -0.035391   
+
+                      paymentMethodAgeDays  isWeekend     label  
+accountAgeDays                    0.166463   0.005788 -0.171809  
+numItems                          0.033443   0.002912  0.080925  
+localTime                        -0.052494  -0.001007 -0.035391  
+paymentMethodAgeDays              1.000000   0.004733 -0.072144  
+isWeekend                         0.004733   1.000000       NaN  
+label                            -0.072144        NaN  1.000000  
+
+===== advanced_relationships\spearman_corr.txt =====
+
+                      accountAgeDays  numItems  localTime  \
+accountAgeDays              1.000000 -0.073749   0.025407   
+numItems                   -0.073749  1.000000  -0.039997   
+localTime                   0.025407 -0.039997   1.000000   
+paymentMethodAgeDays        0.213525  0.039163  -0.073066   
+isWeekend                   0.006952  0.002926  -0.001202   
+label                      -0.206436  0.081334  -0.042260   
+
+                      paymentMethodAgeDays  isWeekend     label  
+accountAgeDays                    0.213525   0.006952 -0.206436  
+numItems                          0.039163   0.002926  0.081334  
+localTime                        -0.073066  -0.001202 -0.042260  
+paymentMethodAgeDays              1.000000   0.005535 -0.084315  
+isWeekend                         0.005535   1.000000       NaN  
+label                            -0.084315        NaN  1.000000  
+
+===== cardinality\cardinality_summary.txt =====
+
+Cardinality per categorical feature:
+{'paymentMethod': 3, 'Category': 3}
+
+High cardinality features (>50 unique): []
+
+===== distribution_shape\distribution_stats.txt =====
+
+accountAgeDays: Skew=0.36, Kurtosis=-1.55, Shapiro p=0.0000
+numItems: Skew=13.34, Kurtosis=291.53, Shapiro p=0.0000
+localTime: Skew=-2.95, Kurtosis=10.45, Shapiro p=0.0000
+paymentMethodAgeDays: Skew=3.24, Kurtosis=11.60, Shapiro p=0.0000
+isWeekend: Skew=0.00, Kurtosis=-2.00, Shapiro p=0.0000
+label: Skew=8.19, Kurtosis=65.05, Shapiro p=0.0000
+
+===== missing_data\missing_correlation.txt =====
+
+                      accountAgeDays  numItems  localTime  paymentMethod  \
+accountAgeDays                   NaN       NaN        NaN            NaN   
+numItems                         NaN       NaN        NaN            NaN   
+localTime                        NaN       NaN        NaN            NaN   
+paymentMethod                    NaN       NaN        NaN            NaN   
+paymentMethodAgeDays             NaN       NaN        NaN            NaN   
+Category                         NaN       NaN        NaN            NaN   
+isWeekend                        NaN       NaN        NaN            NaN   
+label                            NaN       NaN        NaN            NaN   
+
+                      paymentMethodAgeDays  Category  isWeekend  label  
+accountAgeDays                         NaN       NaN        NaN    NaN  
+numItems                               NaN       NaN        NaN    NaN  
+localTime                              NaN       NaN        NaN    NaN  
+paymentMethod                          NaN       NaN        NaN    NaN  
+paymentMethodAgeDays                   NaN       NaN        NaN    NaN  
+Category                               NaN  1.000000   0.029047    NaN  
+isWeekend                              NaN  0.029047   1.000000    NaN  
+label                                  NaN       NaN        NaN    NaN  
+
+===== missing_data\missing_summary.txt =====
+
+           Missing Count  Missing %
+isWeekend            560   1.427807
+Category              95   0.242217
+
+===== numerical_analysis\scaling_transformation_suggestions.txt =====
+
+accountAgeDays: Skew=0.36 -> Fairly symmetric | Suggest MinMax Scaling (large range)
+numItems: Skew=13.34 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
+localTime: Skew=-2.95 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
+paymentMethodAgeDays: Skew=3.24 -> Highly skewed; consider Log or Box-Cox transform | Suggest MinMax Scaling (large range)
+isWeekend: Skew=0.00 -> Fairly symmetric | Suggest Standard Scaling (normal range)
+label: Skew=8.19 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
+
+===== outliers\outlier_profile.txt =====
+
+accountAgeDays: 0 outliers (0.00%)
+numItems: 1823 outliers (4.65%)
+localTime: 3249 outliers (8.28%)
+paymentMethodAgeDays: 6350 outliers (16.19%)
+isWeekend: 0 outliers (0.00%)
+label: 560 outliers (1.43%)
+Multivariate Outliers (IsolationForest): 1961
+
+===== relationships\categorical_chi2.txt =====
+
+paymentMethod vs Category -> p=0.7668
+
+===== relationships\categorical_cramers_v.txt =====
+
+paymentMethod vs Category -> Cramér's V=0.0000
+
+===== relationships\integrity_checks.txt =====
+
+No issues found
+
+===== relationships\mutual_information.txt =====
+
+accountAgeDays          0.078249
+paymentMethodAgeDays    0.013221
+isWeekend               0.010576
+numItems                0.003801
+localTime               0.001835
+dtype: float64
+
+===== summary.txt =====
+
+EDA Completed.
+Check folders for:
+- missing_data
+- cardinality
+- numerical_analysis
+- categorical_analysis
+- relationships
+- outliers
+- distribution_shape
+- target_analysis
+- advanced_relationships
+
+===== target_analysis\Category_target_mean.txt =====
+
+Category
+electronics    0.013714
+food           0.013653
+shopping       0.014931
+Name: label, dtype: float64
+
+===== target_analysis\paymentMethod_target_mean.txt =====
+
+paymentMethod
+creditcard     0.014641
+paypal         0.013866
+storecredit    0.010972
+Name: label, dtype: float64

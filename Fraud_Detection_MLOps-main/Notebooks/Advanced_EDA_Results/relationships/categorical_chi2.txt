@@ -1,0 +1,1 @@
+paymentMethod vs Category -> p=0.7668

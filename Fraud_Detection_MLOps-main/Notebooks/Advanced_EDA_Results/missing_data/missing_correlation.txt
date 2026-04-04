@@ -1,0 +1,19 @@
+                      accountAgeDays  numItems  localTime  paymentMethod  \
+accountAgeDays                   NaN       NaN        NaN            NaN   
+numItems                         NaN       NaN        NaN            NaN   
+localTime                        NaN       NaN        NaN            NaN   
+paymentMethod                    NaN       NaN        NaN            NaN   
+paymentMethodAgeDays             NaN       NaN        NaN            NaN   
+Category                         NaN       NaN        NaN            NaN   
+isWeekend                        NaN       NaN        NaN            NaN   
+label                            NaN       NaN        NaN            NaN   
+
+                      paymentMethodAgeDays  Category  isWeekend  label  
+accountAgeDays                         NaN       NaN        NaN    NaN  
+numItems                               NaN       NaN        NaN    NaN  
+localTime                              NaN       NaN        NaN    NaN  
+paymentMethod                          NaN       NaN        NaN    NaN  
+paymentMethodAgeDays                   NaN       NaN        NaN    NaN  
+Category                               NaN  1.000000   0.029047    NaN  
+isWeekend                              NaN  0.029047   1.000000    NaN  
+label                                  NaN       NaN        NaN    NaN  

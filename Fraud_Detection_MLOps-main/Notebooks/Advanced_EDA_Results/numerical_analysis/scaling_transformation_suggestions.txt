@@ -1,0 +1,6 @@
+accountAgeDays: Skew=0.36 -> Fairly symmetric | Suggest MinMax Scaling (large range)
+numItems: Skew=13.34 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
+localTime: Skew=-2.95 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
+paymentMethodAgeDays: Skew=3.24 -> Highly skewed; consider Log or Box-Cox transform | Suggest MinMax Scaling (large range)
+isWeekend: Skew=0.00 -> Fairly symmetric | Suggest Standard Scaling (normal range)
+label: Skew=8.19 -> Highly skewed; consider Log or Box-Cox transform | Suggest Standard Scaling (normal range)
